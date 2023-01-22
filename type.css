@@ -1,0 +1,62 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0 15vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+
+header, ul, .types {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    gap: 2em;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+body > div > h1 {
+    text-align: center;
+    margin: 2em;
+    flex-grow: 0;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    background-color: gray;
+    width: 35vh;
+    height: 35vh;
+}
+
+.type {
+    width: min-content;
+}
+
+.types {
+    justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 0 15em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header, ul, .feature, .get_started{
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    gap: 2em;
+}
+
+header, .get_started {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.7em 1.2em;
+}
+
+.feature div {
+    width: 50%;
+}
+
+.content {
+    padding: 4em;
+}
+
+.content p {
+    margin: 1.7em 0;
+}
+
+.get_started {
+    margin: 5em 0;
+}
+
+.get_started h1 {
+    font-size: 1.7em;
+}
+
+.get_started p {
+    font-size: 1.3em;
+}
+
+.buttons {
+    display: flex;
+    gap: 2em;
+}
+
+.buttons button {
+    padding: 1.1em 1.7em;
+}
+
+.white_button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+}

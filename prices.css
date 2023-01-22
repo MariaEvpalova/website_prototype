@@ -1,0 +1,92 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0 15vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+
+header, ul, .prices, .prices div, .prices ul {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    gap: 2em;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.7em 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+body > h1 {
+    text-align: center;
+    margin: 2em;
+    flex-grow: 0;
+}
+
+.prices {
+    width: 100%;
+    justify-content: center;
+    gap: 8vh;
+    margin-bottom: 12vh;
+}
+
+.prices div {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2em 3em;
+    min-width: 20vh;
+}
+
+.prices ul {
+    flex-direction: column;
+    padding: 0;
+    color: gray;
+    gap: 1em;
+}
+
+.prices h1 {
+    font-weight: 450;
+}
+
+.prices h2 {
+    font-weight: 350;
+}
+
+.prices button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em 2em;
+    margin-top: 4em;
+}

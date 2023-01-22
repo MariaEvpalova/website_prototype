@@ -1,0 +1,67 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0 15vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+}
+
+header, ul, div{
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    gap: 2em;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.gap h2 {
+    font-size: 1em;
+    font-weight: 450;
+}
+.gap p {
+    color: #CACED8;
+    border: 1px solid #CACED8;
+    padding: 0.8em 0.5em;
+    border-radius: 8px;
+}
+
+body > div > h1 {
+    text-align: center;
+    margin: 2em;
+    flex-grow: 0;
+    font-weight: 400;
+}
+
+.gap {
+    align-self: center;
+    width: 60%;
+}
+
+div {
+    flex-direction: column;
+}

@@ -1,0 +1,83 @@
+html {
+    height: 100vh;
+}
+body {
+    margin: 0 15vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header, ul, .information, .name {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    gap: 2em;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1em 2.5em;
+    border-radius: 8px;
+    margin-top: 1em;
+    flex-grow: 0;
+}
+
+body > h1, h2 {
+    color: #CACED8;
+    font-size: 1.5em;
+}
+
+.information, .name {
+    justify-content: space-between;
+}
+
+.information .column {
+    width: 47%;
+    align-items: stretch;
+}
+
+.name .gap {
+    width: 48%;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 450;
+}
+
+.gap h3 {
+    font-size: 1em;
+    font-weight: 450;
+}
+.gap p {
+    color: #CACED8;
+    border: 1px solid #CACED8;
+    padding: 0.8em 0.5em;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2em;
+}
