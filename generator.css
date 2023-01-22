@@ -12,7 +12,7 @@ body {
     height: 100%;
 }
 
-header, ul, div{
+header, ul, div, #buttons{
     display: flex;
 }
 
@@ -27,6 +27,7 @@ header ul {
 header {
     justify-content: space-between;
     align-items: center;
+    flex: 0 1 auto;
 }
 
 header h1 {
@@ -39,31 +40,48 @@ footer {
     padding-bottom: 2em;
 }
 
-.gap h2 {
-    font-size: 1em;
-    font-weight: 450;
-}
-.gap p {
-    color: #CACED8;
-    border: 1px solid #CACED8;
-    padding: 0.8em 0.5em;
-    border-radius: 8px;
-}
-
-body > div > h1 {
-    text-align: center;
-    margin: 2em;
-    flex-grow: 0;
-    font-weight: 400;
-}
-
-.gap {
-    align-self: center;
-    width: 60%;
-}
-
-div {
+#enter {
     flex-direction: column;
+    flex: 0.05 1 auto;
+}
+
+#input {
+    border: 1px solid #CACED8;
+    flex: 0.75 1 auto;
+    border-radius: 5px;
+}
+
+#main_section {
+    flex: 1 1 auto;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#input p {
+    margin: 0.4em;
+    color: #CACED8;
+}
+
+#buttons {
+    margin-top: 1.2em;
+    gap: 1.2em
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.8em 2.3em;
+}
+
+#main_field {
+    background-color: #CACED8;
+    flex: 2 0.2 auto;
+    margin: 2.5em;
 }
 
 a {

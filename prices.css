@@ -90,3 +90,8 @@ body > h1 {
     padding: 1em 2em;
     margin-top: 4em;
 }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}

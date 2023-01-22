@@ -1,5 +1,5 @@
 body {
-    margin: 0 15em;
+    margin: 0 15vh;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -74,4 +74,9 @@ button {
 footer {
     text-align: center;
     padding-bottom: 2em;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
